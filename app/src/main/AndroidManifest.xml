@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyTools">
         <activity
+            android:name=".Lemonade"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".BirthdayCard"
             android:parentActivityName=".MainActivity" />
         <activity

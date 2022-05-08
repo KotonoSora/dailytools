@@ -1,11 +1,12 @@
 package com.kotonosora.dailytools
 
-import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+
+private const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +22,12 @@ class MainActivity : AppCompatActivity() {
         val birthdayCard: Button = findViewById(R.id.btn_birthday)
         birthdayCard.setOnClickListener {
             val intent = Intent(this, BirthdayCard::class.java)
+            startActivity(intent)
+        }
+
+        val lemonade: Button = findViewById(R.id.btn_lemonade)
+        lemonade.setOnClickListener {
+            val intent = Intent(this, Lemonade::class.java)
             startActivity(intent)
         }
 
