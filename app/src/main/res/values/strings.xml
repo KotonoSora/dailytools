@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Daily Tools</string>
+    <string name="hello_world">Hello world</string>
+    <string name="happy_birthday_text">Happy Birthday, Sam!</string>
+    <string name="signature_text">From Emma</string>
+    <string name="roll">Roll</string>
+    <string name="dice_rolled">Dice Rolled!</string>
+    <string name="birthday_card">Birthday Card</string>
+</resources>
