@@ -31,7 +31,7 @@ class DiceRoller : AppCompatActivity() {
         val diceRoll = dice.roll()
 
         // Find the ImageView in the layout
-        val diceImage: ImageView = findViewById(R.id.imageView)
+        val diceImage: ImageView = findViewById(R.id.img_dice_roll)
 
         // Determine which drawable resource ID to use based on the dice roll
         val drawableResource = when (diceRoll) {
