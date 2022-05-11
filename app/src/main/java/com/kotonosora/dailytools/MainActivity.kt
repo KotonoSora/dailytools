@@ -32,6 +32,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val tipComputer: Button = findViewById(R.id.btn_tip_computer)
+        tipComputer.setOnClickListener {
+            val intent = Intent(this, TipComputer::class.java)
+            startActivity(intent)
+        }
+
         logging()
     }
 
