@@ -22,7 +22,7 @@ class LemonadeTests : BaseTestLemonade() {
 
     @Before
     fun setup() {
-        launch(MainActivity::class.java)
+        launch(Lemonade::class.java)
     }
 
     /**
