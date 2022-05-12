@@ -16,8 +16,8 @@ import org.junit.runner.RunWith
 @MediumTest
 class ButtonTests {
     @get:Rule
-    var activityRule: ActivityScenarioRule<MainActivity>
-            = ActivityScenarioRule(MainActivity::class.java)
+    var activityRule: ActivityScenarioRule<DogglerActivity>
+            = ActivityScenarioRule(DogglerActivity::class.java)
 
     @Test
     fun `vertical_list_button_is_displayed`() {

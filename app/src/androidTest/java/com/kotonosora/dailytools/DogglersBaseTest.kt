@@ -18,14 +18,14 @@ import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import com.kotonosora.dailytools.DogglersBaseTest.DrawableMatcher.withDrawable
-import com.kotonosora.dailytools.data.DataSource
+import com.kotonosora.dailytools.data.DataSourceDog
 import org.hamcrest.CoreMatchers
 import org.hamcrest.Description
 import org.hamcrest.Matcher
 
 open class DogglersBaseTest {
 
-    val lastPosition = DataSource.dogs.size - 1
+    val lastPosition = DataSourceDog.dogs.size - 1
 
     /**
      * Check the content of a card
