@@ -3,7 +3,7 @@ package com.kotonosora.dailytools.data
 import com.kotonosora.dailytools.R
 import com.kotonosora.dailytools.model.Dog
 
-object DataSource {
+object DataSourceDog {
 
     val dogs: List<Dog> = listOf(
         Dog(
