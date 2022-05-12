@@ -1,4 +1,4 @@
-package com.kotonosora.dailytools.models
+package com.kotonosora.dailytools.model
 
 /**
  * A Lemon tree class with a method to "pick" a lemon. The "size" of the lemon is randomized

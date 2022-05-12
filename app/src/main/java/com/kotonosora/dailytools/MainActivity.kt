@@ -3,38 +3,42 @@ package com.kotonosora.dailytools
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.kotonosora.dailytools.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"
 
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val rollButton: Button = findViewById(R.id.btn_dice_roller)
-        rollButton.setOnClickListener {
+        binding.btnDiceRoller.setOnClickListener {
             val intent = Intent(this, DiceRoller::class.java)
             startActivity(intent)
         }
 
-        val birthdayCard: Button = findViewById(R.id.btn_birthday)
-        birthdayCard.setOnClickListener {
+        binding.btnBirthday.setOnClickListener {
             val intent = Intent(this, BirthdayCard::class.java)
             startActivity(intent)
         }
 
-        val lemonade: Button = findViewById(R.id.btn_lemonade)
-        lemonade.setOnClickListener {
+        binding.btnLemonade.setOnClickListener {
             val intent = Intent(this, Lemonade::class.java)
             startActivity(intent)
         }
 
-        val tipComputer: Button = findViewById(R.id.btn_tip_computer)
-        tipComputer.setOnClickListener {
+        binding.btnTipComputer.setOnClickListener {
             val intent = Intent(this, TipComputer::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnAffirmations.setOnClickListener {
+            val intent = Intent(this, Affirmations::class.java)
             startActivity(intent)
         }
 

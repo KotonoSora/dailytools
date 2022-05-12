@@ -5,7 +5,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
-import com.kotonosora.dailytools.models.LemonTree
+import com.kotonosora.dailytools.model.LemonTree
 
 class Lemonade : AppCompatActivity() {
     /**

@@ -1,6 +1,6 @@
 package com.kotonosora.dailytools
 
-import com.kotonosora.dailytools.models.Dice
+import com.kotonosora.dailytools.model.Dice
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

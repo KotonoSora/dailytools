@@ -1,4 +1,4 @@
-package com.kotonosora.dailytools.models
+package com.kotonosora.dailytools.model
 
 class Dice(private val numSides: Int) {
     fun roll(): Int {

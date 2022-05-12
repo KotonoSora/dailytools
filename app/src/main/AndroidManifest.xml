@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyTools">
         <activity
+            android:name=".Affirmations"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".TipComputer"
             android:parentActivityName=".MainActivity" />
         <activity
