@@ -9,19 +9,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyTools">
         <activity
-            android:name=".Affirmations"
+            android:name=".GridListActivity"
+            android:parentActivityName=".DogglerActivity" />
+        <activity
+            android:name=".HorizontalListActivity"
+            android:parentActivityName=".DogglerActivity" />
+        <activity
+            android:name=".VerticalListActivity"
+            android:parentActivityName=".DogglerActivity" />
+        <activity
+            android:name=".DogglerActivity"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".TipComputer"
+            android:name=".AffirmationActivity"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Lemonade"
+            android:name=".TipComputerActivity"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".BirthdayCard"
+            android:name=".LemonadeActivity"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".DiceRoller"
+            android:name=".BirthdayCardActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DiceRollerActivity"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"

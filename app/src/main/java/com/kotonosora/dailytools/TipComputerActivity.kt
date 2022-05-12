@@ -10,7 +10,7 @@ import com.kotonosora.dailytools.databinding.ActivityTipComputerBinding
 import java.text.NumberFormat
 import kotlin.math.ceil
 
-class TipComputer : AppCompatActivity() {
+class TipComputerActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityTipComputerBinding
 

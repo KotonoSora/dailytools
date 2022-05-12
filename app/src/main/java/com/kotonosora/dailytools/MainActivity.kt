@@ -18,27 +18,32 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnDiceRoller.setOnClickListener {
-            val intent = Intent(this, DiceRoller::class.java)
+            val intent = Intent(this, DiceRollerActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnBirthday.setOnClickListener {
-            val intent = Intent(this, BirthdayCard::class.java)
+            val intent = Intent(this, BirthdayCardActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnLemonade.setOnClickListener {
-            val intent = Intent(this, Lemonade::class.java)
+            val intent = Intent(this, LemonadeActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnTipComputer.setOnClickListener {
-            val intent = Intent(this, TipComputer::class.java)
+            val intent = Intent(this, TipComputerActivity::class.java)
             startActivity(intent)
         }
 
         binding.btnAffirmations.setOnClickListener {
-            val intent = Intent(this, Affirmations::class.java)
+            val intent = Intent(this, AffirmationActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnDog.setOnClickListener {
+            val intent = Intent(this, DogglerActivity::class.java)
             startActivity(intent)
         }
 

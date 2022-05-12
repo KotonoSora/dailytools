@@ -14,7 +14,7 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class AffirmationsListTests {
     @get:Rule
-    val activity = ActivityScenarioRule(Affirmations::class.java)
+    val activity = ActivityScenarioRule(AffirmationActivity::class.java)
 
     @Test
     fun scroll_to_item() {

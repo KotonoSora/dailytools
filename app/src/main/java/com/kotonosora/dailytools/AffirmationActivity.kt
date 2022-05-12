@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.kotonosora.dailytools.adapter.ItemAdapter
 import com.kotonosora.dailytools.data.Datasource
 
-class Affirmations : AppCompatActivity() {
+class AffirmationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

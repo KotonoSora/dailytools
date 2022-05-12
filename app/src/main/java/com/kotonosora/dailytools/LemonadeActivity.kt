@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import com.kotonosora.dailytools.model.LemonTree
 
-class Lemonade : AppCompatActivity() {
+class LemonadeActivity : AppCompatActivity() {
     /**
      * DO NOT ALTER ANY VARIABLE OR VALUE NAMES OR THEIR INITIAL VALUES.
      *

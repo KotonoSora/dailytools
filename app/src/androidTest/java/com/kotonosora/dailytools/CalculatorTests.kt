@@ -17,7 +17,7 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class CalculatorTests {
     @get:Rule()
-    val activity = ActivityScenarioRule(TipComputer::class.java)
+    val activity = ActivityScenarioRule(TipComputerActivity::class.java)
 
     @Test
     fun calculate_20_percent_tip() {
