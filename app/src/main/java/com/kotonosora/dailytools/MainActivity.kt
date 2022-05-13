@@ -47,6 +47,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnWords.setOnClickListener {
+            val intent = Intent(this, WordsActivity::class.java)
+            startActivity(intent)
+        }
+
         logging()
     }
 

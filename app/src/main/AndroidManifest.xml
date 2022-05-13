@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyTools">
         <activity
+            android:name=".WordsDetailActivity"
+            android:parentActivityName=".WordsActivity" />
+        <activity
+            android:name=".WordsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".GridListActivity"
             android:parentActivityName=".DogglerActivity" />
         <activity
