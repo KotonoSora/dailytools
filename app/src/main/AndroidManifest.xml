@@ -12,9 +12,6 @@
             android:name=".DessertActivity"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".WordsDetailActivity"
-            android:parentActivityName=".WordsActivity" />
-        <activity
             android:name=".WordsActivity"
             android:parentActivityName=".MainActivity" />
         <activity
