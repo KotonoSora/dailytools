@@ -52,6 +52,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnDessert.setOnClickListener {
+            val intent = Intent(this, DessertActivity::class.java)
+            startActivity(intent)
+        }
+
         logging()
     }
 
