@@ -57,6 +57,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnUnscramble.setOnClickListener {
+            val intent = Intent(this, UnscrambleActivity::class.java)
+            startActivity(intent)
+        }
+
         logging()
     }
 
