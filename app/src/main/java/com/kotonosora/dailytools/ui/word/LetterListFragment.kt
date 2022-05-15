@@ -1,4 +1,4 @@
-package com.kotonosora.dailytools
+package com.kotonosora.dailytools.ui.word
 
 import android.os.Bundle
 import android.view.*
@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.kotonosora.dailytools.R
 import com.kotonosora.dailytools.adapter.LetterAdapter
 import com.kotonosora.dailytools.databinding.FragmentLetterListBinding
 

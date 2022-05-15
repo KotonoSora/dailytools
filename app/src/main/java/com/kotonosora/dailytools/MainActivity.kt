@@ -62,6 +62,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnCupcake.setOnClickListener {
+            val intent = Intent(this, CupcakeActivity::class.java)
+            startActivity(intent)
+        }
+
         logging()
     }
 

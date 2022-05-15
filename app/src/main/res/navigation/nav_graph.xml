@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/letterListFragment"
-        android:name="com.kotonosora.dailytools.LetterListFragment"
+        android:name="com.kotonosora.dailytools.ui.word.LetterListFragment"
         android:label="@string/words_text"
         tools:layout="@layout/fragment_letter_list">
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/wordListFragment"
-        android:name="com.kotonosora.dailytools.WordListFragment"
+        android:name="com.kotonosora.dailytools.ui.word.WordListFragment"
         android:label="@string/word_list_fragment_label"
         tools:layout="@layout/fragment_word_list">
         <argument

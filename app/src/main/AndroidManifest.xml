@@ -9,6 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyTools">
         <activity
+            android:name=".CupcakeActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Cupcake"/>
+        <activity
             android:name=".UnscrambleActivity"
             android:parentActivityName=".MainActivity" />
         <activity

@@ -1,4 +1,4 @@
-package com.kotonosora.dailytools
+package com.kotonosora.dailytools.ui.word
 
 import android.os.Bundle
 import android.view.LayoutInflater

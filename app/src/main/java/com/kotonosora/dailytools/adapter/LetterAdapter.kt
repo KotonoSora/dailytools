@@ -10,8 +10,8 @@ import android.widget.Button
 import androidx.annotation.RequiresApi
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.kotonosora.dailytools.LetterListFragmentDirections
 import com.kotonosora.dailytools.R
+import com.kotonosora.dailytools.ui.word.LetterListFragmentDirections
 
 class LetterAdapter :
     RecyclerView.Adapter<LetterAdapter.LetterViewHolder>() {
@@ -51,7 +51,8 @@ class LetterAdapter :
         holder.button.setOnClickListener {
             // Create an action from WordList to DetailList
             // using the required arguments
-            val action = LetterListFragmentDirections.actionLetterListFragmentToWordListFragment(holder.button.text.toString())
+            val action =
+                LetterListFragmentDirections.actionLetterListFragmentToWordListFragment(holder.button.text.toString())
             // Navigate using that action
             holder.view.findNavController().navigate(action)
         }
