@@ -1,4 +1,4 @@
-package com.kotonosora.dailytools.ui.game
+package com.kotonosora.dailytools.data
 
 
 const val MAX_NO_OF_WORDS = 10

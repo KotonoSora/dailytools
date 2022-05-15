@@ -9,7 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.kotonosora.dailytools.R
+import com.kotonosora.dailytools.data.MAX_NO_OF_WORDS
 import com.kotonosora.dailytools.databinding.FragmentGameBinding
+import com.kotonosora.dailytools.viewmodel.game.GameViewModel
 
 /**
  * Fragment where the game is played, contains the game logic.

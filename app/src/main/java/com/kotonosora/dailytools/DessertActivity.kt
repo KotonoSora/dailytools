@@ -11,11 +11,11 @@ import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import com.kotonosora.dailytools.databinding.ActivityDessertBinding
 
-const val KEY_REVENUE = "revenue_key"
-const val KEY_DESSERT_SOLD = "dessert_sold_key"
+private const val KEY_REVENUE = "revenue_key"
+private const val KEY_DESSERT_SOLD = "dessert_sold_key"
+private const val TAG = "DessertActivity"
 
 class DessertActivity : AppCompatActivity() {
-    private val TAG = "DessertActivity"
     private var revenue = 0
     private var dessertsSold = 0
 

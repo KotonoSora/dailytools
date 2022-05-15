@@ -1,4 +1,4 @@
-package com.kotonosora.dailytools.ui.game
+package com.kotonosora.dailytools.viewmodel.game
 
 import android.text.Spannable
 import android.text.SpannableString
@@ -7,6 +7,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
+import com.kotonosora.dailytools.data.MAX_NO_OF_WORDS
+import com.kotonosora.dailytools.data.SCORE_INCREASE
+import com.kotonosora.dailytools.data.allWordsList
 
 /**
  * ViewModel containing the app data and methods to process the data
