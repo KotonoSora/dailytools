@@ -67,6 +67,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnMarsPhotos.setOnClickListener {
+            val intent = Intent(this, MarsPhotosActivity::class.java)
+            startActivity(intent)
+        }
+
         logging()
     }
 

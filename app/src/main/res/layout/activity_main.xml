@@ -108,4 +108,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_dessert" />
 
+    <Button
+        android:id="@+id/btn_mars_photos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/mars__photos_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_unscramble" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

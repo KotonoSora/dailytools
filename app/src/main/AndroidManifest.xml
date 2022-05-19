@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,44 +11,62 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyTools">
         <activity
-            android:name=".CupcakeActivity"
+            android:name=".MarsPhotosActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.Cupcake"/>
+            android:theme="@style/Theme.MarsPhotos" />
+        <activity
+            android:name=".CupcakeActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.Cupcake" />
         <activity
             android:name=".UnscrambleActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DessertActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".WordsActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".GridListActivity"
+            android:exported="false"
             android:parentActivityName=".DogglerActivity" />
         <activity
             android:name=".HorizontalListActivity"
+            android:exported="false"
             android:parentActivityName=".DogglerActivity" />
         <activity
             android:name=".VerticalListActivity"
+            android:exported="false"
             android:parentActivityName=".DogglerActivity" />
         <activity
             android:name=".DogglerActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AffirmationActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".TipComputerActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LemonadeActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".BirthdayCardActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DiceRollerActivity"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"

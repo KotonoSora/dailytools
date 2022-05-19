@@ -89,4 +89,7 @@
     <string name="order_details">Quantity: %1$s \n Flavor: %2$s \nPickup date: %3$s \n
         Total: %4$s \n\n Thank you!</string>
     <string name="cupcake_text">Cupcake</string>
+    <string name="mars__photos_text">Mars Photos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
