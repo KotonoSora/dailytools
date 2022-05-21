@@ -72,6 +72,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnBusSchedule.setOnClickListener {
+            val intent = Intent(this, BusScheduleActivity::class.java)
+            startActivity(intent)
+        }
+
         logging()
     }
 
