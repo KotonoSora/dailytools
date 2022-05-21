@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import com.kotonosora.dailytools.adapter.PhotoGridAdapter
 import com.kotonosora.dailytools.databinding.FragmentOverviewBinding
 import com.kotonosora.dailytools.viewmodel.marsphotos.OverviewViewModel
 
@@ -31,6 +32,8 @@ class OverviewFragment : Fragment() {
 
         // Giving the binding access to the OverviewViewModel
         binding.viewModel = viewModel
+
+        binding.photosGrid.adapter = PhotoGridAdapter()
 
         return binding.root
     }

@@ -3,6 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+
+        <variable
+            name="photo"
+            type="com.kotonosora.dailytools.model.marsphotos.MarsPhoto" />
+
+        <variable
+            name="viewModel"
+            type="com.kotonosora.dailytools.viewmodel.marsphotos.OverviewViewModel" />
+    </data>
+
     <ImageView
         android:id="@+id/mars_image"
         android:layout_width="wrap_content"
@@ -10,5 +21,6 @@
         android:adjustViewBounds="true"
         android:padding="2dp"
         android:scaleType="fitXY"
+        app:imageUrl="@{photo.imgSrcUrl}"
         tools:src="@tools:sample/backgrounds/scenic" />
 </layout>
