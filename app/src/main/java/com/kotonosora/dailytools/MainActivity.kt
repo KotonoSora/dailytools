@@ -77,6 +77,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnInventory.setOnClickListener {
+            val intent = Intent(this, InventoryActivity::class.java)
+            startActivity(intent)
+        }
+
         logging()
     }
 

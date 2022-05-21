@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DailyTools">
         <activity
+            android:name=".InventoryActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".BusScheduleActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity"
