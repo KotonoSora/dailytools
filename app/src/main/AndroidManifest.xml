@@ -14,7 +14,8 @@
         <activity
             android:name=".InventoryActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.InventoryApp" />
         <activity
             android:name=".BusScheduleActivity"
             android:exported="false"
