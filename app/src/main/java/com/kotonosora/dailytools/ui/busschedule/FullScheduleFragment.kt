@@ -48,7 +48,7 @@ class FullScheduleFragment : Fragment() {
         val busStopAdapter = BusStopAdapter {
             val action = FullScheduleFragmentDirections
                 .actionFullScheduleFragmentToStopScheduleFragment(it.stopName)
-            view?.findNavController()?.navigate(action)
+            view.findNavController().navigate(action)
         }
         recyclerView.adapter = busStopAdapter
 

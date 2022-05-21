@@ -13,12 +13,14 @@ class BusScheduleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         val binding = ActivityBusScheduleBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val navHostFragment = supportFragmentManager
-            .findFragmentById(R.id.busschedule_nav_graph) as NavHostFragment
+            .findFragmentById(R.id.busschedule_nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
+
         setupActionBarWithNavController(navController)
     }
 
